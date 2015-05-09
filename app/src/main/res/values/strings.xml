@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrimInnet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="crim_title_label">Title</string>
+    <string name="crim_title_hint">HINT</string>
+    <string name="crim_detail_label">Detail</string>
+    <string name="crim_solved_label">Solved</string>
+
+    <string name="title_alertdialog">DatePicker</string>
+    <string name="ok_alertdialog">OK</string>
+
+</resources>

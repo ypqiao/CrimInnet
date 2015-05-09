@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.ypqiao.criminnet.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <uses-library android:name="android.test.runner" />
+        <instrumentation android:name="android.test.InstrumentationTestRunner"
+                         android:targetPackage="me.ypqiao.criminnet.app"
+                         android:label="Testing" />
+
+
+        <!--<activity-->
+            <!--android:name=".activity.CrimActivity"-->
+            <!--android:label="@string/app_name" >-->
+        <!--</activity>-->
+
+
+        <activity
+                android:name=".activity.CrimPagerActivity"
+                android:label="@string/app_name" >
+        </activity>
+
+
+
+        <activity
+                android:name=".activity.CrimListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
